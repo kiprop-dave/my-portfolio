@@ -1,0 +1,165 @@
+@import url(/assets/style.css);
+
+#about {
+    background-color: #4b4343;
+    border-radius: 10px;
+}
+
+#home {
+    background-color: rgb(10, 8, 8);
+}
+
+.container {
+    color: white;
+    margin-bottom: 2rem;
+
+}
+
+#row1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+#profile {
+    width: 50%;
+    background-color: #111010;
+}
+
+#profile h1 {
+    margin-left: 4rem;
+    font-size: 45px;
+    color: rgb(234, 154, 154);
+}
+
+#profile h1 span {
+    margin-left: 4.5rem;
+}
+
+#profile h2 {
+    margin-left: 4rem;
+}
+
+#photo {
+    width: 50%;
+    height: 10cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photo img {
+    width: 11cm;
+    height: 10cm;
+    object-fit: cover;
+    object-position: 10% 45%;
+    border-radius: 10px;
+}
+
+#row2 {
+    display: flex;
+    padding-top: 1rem;
+}
+
+#row2 h3 {
+    text-decoration: underline;
+    margin: 1rem;
+}
+
+.bg-cool {
+    background-color: #111010;
+    border-radius: 10px;
+    line-height: 2.5rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+#education {
+    width: 50%;
+}
+
+#experience {
+    width: 50%;
+
+}
+
+p {
+    margin: 1rem;
+}
+
+.liststyle {
+    list-style-type: none;
+}
+
+.font-scale {
+    font-size: 21px;
+    margin-left: 1.5rem;
+}
+
+/* For small devices */
+@media screen and (max-width:600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    #row1 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    #profile {
+        width: 100%;
+    }
+
+    #photo {
+        width: 100%;
+        height: 10cm;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 10% 45%;
+        border-radius: 10px;
+    }
+
+    #row2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #education {
+        width: auto;
+    }
+
+    #experience {
+        width: auto;
+    }
+
+    .separator {
+        width: 100%;
+    }
+
+    #profile h1 {
+        margin-left: 4rem;
+    }
+
+    #profile h1 span {
+        margin-left: 4.5rem;
+    }
+
+    #profile h2 {
+        margin-left: 1.5rem;
+    }
+
+    .bg-cool {
+        margin-left: auto;
+    }
+}

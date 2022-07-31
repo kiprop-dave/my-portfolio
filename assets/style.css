@@ -1,0 +1,239 @@
+body {
+    background-color: rgb(10, 8, 8);
+    font-family: MonoLisa, Monaco, "DejaVu Sans Mono", "Lucida Console", monospace;
+    color: white;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+nav {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    padding-top: 0.5rem;
+    top: 0;
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: dotted;
+    border-bottom-color: #2f2b2b;
+    backdrop-filter: blur(24px);
+}
+
+.logo {
+    font-size: 50px;
+}
+
+.tabs {
+    margin-right: 2rem;
+}
+
+#mytabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(10, 8, 8);
+}
+
+#mytabs li {
+    float: left;
+    display: inline;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#mytabs li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#mytabs li a:hover {
+    background-color: #4b4343;
+}
+
+#home {
+    background-color: #4b4343;
+    border-radius: 10px;
+}
+
+
+
+.container {
+    max-width: 880px;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 7rem;
+}
+
+#main-head {
+    font-size: 3.625rem;
+    line-height: 5.202rem;
+}
+
+#para-1 {
+    line-height: 2.266rem;
+    margin-top: 3rem;
+}
+
+#para2 {
+    line-height: 2.266rem;
+    margin-top: 2rem;
+}
+
+.inside-link {
+    text-decoration-line: none;
+    font-size: 20px;
+    color: rgb(243, 134, 243);
+}
+
+.mylinks {
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#getme {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(10, 8, 8);
+}
+
+#getme li {
+    float: left;
+    display: inline;
+}
+
+#getme li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#getme li a:hover {
+    background-color: #4b4343;
+}
+
+#tbutton {
+    display: none;
+}
+
+.fproject {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+#projecthead {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.project1 {
+    background-color: #111010;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project1 .icon {
+    width: 5rem;
+    height: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.8rem;
+    border-radius: 10px;
+}
+
+.project-des {
+    margin-left: 2rem;
+    line-height: 25px;
+}
+
+.project2 {
+    text-decoration: none;
+    color: white;
+    margin-top: 1rem;
+}
+
+
+/* For small devices */
+@media screen and (max-width:600px) {
+    nav {
+        display: block;
+    }
+
+    .container {
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 3rem;
+    }
+
+    #main-head {
+        margin-top: 4rem;
+        font-size: 1.625rem;
+        line-height: 3.202rem;
+    }
+
+    .tabs {
+        display: none;
+    }
+
+    #mytabs {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(10, 8, 8);
+    }
+
+    #mytabs li {
+        float: none;
+        display: block;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #mytabs li a {
+        display: block;
+        color: white;
+        text-align: left;
+        padding: 16px;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+
+    .project1 {
+        flex-direction: column;
+    }
+
+    #tbutton {
+        position: absolute;
+        display: inline;
+        width: 3rem;
+        margin-right: 1.5rem;
+        background-color: rgb(10, 8, 8);
+        border: none;
+        right: 0;
+        top: 1rem;
+
+    }
+
+    #tbutton:hover {
+        cursor: pointer;
+    }
+
+    /* for toggling button */
+    .active {
+        display: block;
+    }
+}

@@ -1,0 +1,10 @@
+@import url(/assets/style.css);
+
+#home {
+    background-color: rgb(10, 8, 8);
+}
+
+#tools {
+    background-color: #4b4343;
+    border-radius: 10px;
+}

@@ -1,0 +1,11 @@
+@import url(./style.css);
+
+
+#projects {
+    background-color: #4b4343;
+    border-radius: 10px;
+}
+
+#home {
+    background-color: rgb(10, 8, 8);
+}
