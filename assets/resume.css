@@ -101,7 +101,7 @@ p {
     .container {
         display: flex;
         flex-direction: column;
-        margin-left: 0;
+        /* margin-left: 3%; */
     }
 
     #row1 {
