@@ -206,6 +206,7 @@ nav {
 
     .tabs {
         display: none;
+        margin-right: 0;
     }
 
     #mytabs {
