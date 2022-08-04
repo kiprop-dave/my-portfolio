@@ -27,6 +27,34 @@
     <hr id="linenav" />
     <div class="container">
       <h1 id="main-head">Projects</h1>
+      <p>Here are some of the projects that I have completed recently.</p>
+      <h2>ESP32</h2>
+      <div class="bg-cool">
+        <h3 class="pad cool-color">Door Access using RFID reader.</h3>
+        <div class="photo-section">
+          <img src="./projectimages/rfid1.jpeg" alt="pic" class="groupie" />
+          <img src="./projectimages/rfid-circuit.jpeg" alt="" class="circuit" />
+        </div>
+        <div class="explanation">
+          <p class="pad">
+            In this project, we were trying to create a door access that uses
+            Radio Frequency identification (RFID) reader. In this setup, we used
+            the ESP32 microcontroller to read the RFID tags and then compare the
+            tag number to the stored tag numbers. If the tag number matches, the
+            solenoid lock is engaged and the door is opened. If the tag number
+            does not match, the solenoid lock is disengaged and the door is
+            closed. We used an n-channel MOSFET as a switch to control the
+            solenoid lock. We used a buck converter to step down the 12V DC
+            supply to 9V which is used by the solenoid lock. You can see it
+            working
+            <a
+              href="https://drive.google.com/drive/folders/139on8-AmO0WZGOj90dyG_vhmSwTXnCx5?usp=sharing"
+              target="_blank"
+              >here</a
+            >.
+          </p>
+        </div>
+      </div>
     </div>
     <script src="./main.js"></script>
   </body>
