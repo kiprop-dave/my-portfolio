@@ -63,4 +63,9 @@ img {
     .circuit {
         display: none;
     }
+
+    #arduino {
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
 }

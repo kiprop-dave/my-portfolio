@@ -4,6 +4,16 @@
     border: 0;
     font-size: 100%;
 } */
+@font-face {
+    font-family: old-london;
+    src: url(./fonts/old-london/OldLondon.ttf);
+}
+
+@font-face {
+    font-family: autography;
+    src: url(./fonts/autography/Autography.otf);
+}
+
 .intro {
     line-height: 28px;
 }
@@ -40,7 +50,8 @@ nav {
 }
 
 .logo {
-    font-size: 50px;
+    font-size: 2.5rem;
+    font-family: autography;
 }
 
 .tabs {
