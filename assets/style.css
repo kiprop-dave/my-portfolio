@@ -46,7 +46,7 @@ nav {
     justify-content: space-between;
     border-bottom-style: dotted;
     border-bottom-color: #2f2b2b;
-    backdrop-filter: blur(24px);
+    background-color: rgb(10, 8, 8);
 }
 
 .logo {
@@ -259,7 +259,23 @@ nav {
         border: none;
         right: 0;
         top: 1rem;
+        padding: 0;
 
+    }
+
+    .line1 {
+        width: 2.5rem;
+        margin-right: 0;
+    }
+
+    .line2 {
+        width: 1.5rem;
+        margin-right: 0;
+    }
+
+    .line3 {
+        width: 2.5rem;
+        margin-right: 0;
     }
 
     #tbutton:hover {
